@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+    {{>navbar}}
+    <!--main header-->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="images/404.jpg" alt="sakshi" title="sakshi kadave" class="img-fluid">
+                        </figure>
+                        
+                    </div>
+                    <div class="col-md-12 col-12 align-items-center main_header_left">
+                        
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/" target="sakshi"><button>Go Back</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    {{>footer}}
+</body>
+
+</html>
